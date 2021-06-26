@@ -1,0 +1,23 @@
+*{
+	border: 1px solid red;
+}
+
+.classe{ /*elementos da class='classe'*/
+
+}
+p.classe{ /* somente elementos p que possuem a class="classe"*/
+
+}
+
+li>a{ /*seletor de filhos  (a filho de li ou li>a)*/
+		/* apenas para filhos diretos*/
+}
+li a{ /*seletor de descendente(nao apenas filhos, mas quaisquer outros descendentes)*/
+
+}
+li + a{ /* seletor de irmãos ADJACENTES apenas*/
+
+}
+li~a{/*Seletor de irmao geral, nao apenas adjacentes*/
+
+}
